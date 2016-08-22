@@ -1,0 +1,115 @@
+#bw-glmIcon,
+.bw-gIcon {
+    height: 20px;
+    width: 20px;
+}
+
+.bw-gIcon {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAeCAYAAADnydqVAAAEyUlEQVRoQ+1a7XHqMBDUndMADRhDSuCVACUkJSQlkBJCCaGERwlJCaGEYOMGqMC6N+snZQQTLNmYCfbYf5LYsvWxt3urU0gNV69XgHo9u2FyagC450EwADwA3PMV6Pn0OsHgOI6ngTgc8jw/BLbtXLM4jkdKqVGe57vQwd88wEmS/BWRB6L/QxWR8if+xu/2vnm22+/396GT70o7BDgzvyql5iICkLci8pzn+dY3h9YAjuN4FtKhb0Duc4CrlJoR0cq9XxSFiqJIuT+JCEEwzbKsdwCPx+N3pRRAXmHOzDwH2FrrPz42nwXYftQwZcfMaxF5tawhopeiKLbM/GAYNjMdeqMqBGQLrtZ64ZsEvpckyZuIzPvG4DiO50T0LiIA83ttkyT5Ukqtsyw7Cv7Tta0CGB84MLPSWo9EZEVEb0S0AaDM/Ky1Bmtm6Egp9aC1Xud5XtlhCLgGMPT/kWXZc8g7ABhR3TcGx3H8hHUXkXs30A3A3vU5C7D9gMltc8iDiLwx86IoincAbPLBUmt9z8xLw6A/IYD42ozH4y8i8k7AfqfHAM+Y+ZOIHtM03WC+Jid/aq1XPkIFAQxmIA9qrd+iKFpord+J6Lkoig0RfSHh393dHXC/LZluAvClEg2XSkQwdTAwQU41juMlVM4nlb6ArnpugvdBKVUCjHky8yFNUy+ZKiUaDDIdI6GXEg2ALYPTNF0jVxPRIcuyx9C8EDLZJgC3IdFJkiyVUk8hub9O25A5o810OoVTnsLf2JxrAH5SStmgm4rIR0ggBjPYBdgyGACbSX7LNBHNQyLLN+HQHHMNiQ4BLqSNb47uc8guCGTU0j6Ct7GMfXEkGjuLV2Ye+dY6iMFGEo5ysImetZG1b5kGu08dX52JOoD9qsmqAtDIchDLQ+fu7BoeYW6jKJrB88DniMhjnuelPNvL5mGl1KoqPdRiMDMfmSwwGB26Mg1pFZGL3fRvSfTJIiK/HgHZNnONaULux7q95Hlerikun3E0QYH0eHanEcRg12SJyMLsy2BEysFcQ6abAHypyfqJbS6g2AqeAh7K0Kp2Rp6/sDOxpAkBGMUlpO1Tdrt9BTMYLhqSAfPBzKWLtoOxMo0BFkWBvfPFbvpWALYBLCJLmMkQ89UE9Mlk8ikiO5hVw2pUrlDB2mRZ9tLkm3inNsDuPtiNtlOZJiJvlaVq0E1M1jUY7OQ8uOtN6PapLiBgI5QRQWSMFWQbAYUKVuMDlCCJtiYL+2Ar0adyYoxHa0WPJgC3sU2qC0xb7U0+xRZpS0Q7VAixXQopZlSNoZLBImIjZ2QrWYhiW6p0GQyZZmZUn3Za6/J4z5TXGkVfE4CvyeC2gDyT51HjfwJ53HrzZDLBPZSHv6tYdcfhPWwwHywPG7TWOLIqj+hw2GD3ZbZTK9OoVxdF8XGJtNTJwWbLgHy1tTms7kL8VntLjHPbHXNcOtrv94smY2ztuLBJ51XvAGBUbpj5aP93+o45PkN+7By4xkyVtWbU83/K74bFy6aHKDcLsJFolOSODvWN9Jc4O4f9cJql++ziBQWqMm++541y8G8vlP33lJBxXMvZhvR9621ulsG3vnBdGd8AcFeQajjOAeCGC9eV1waAu4JUw3EOADdcuK689g9CG7hMyw+mlAAAAABJRU5ErkJggg==) no-repeat;
+  vertical-align: middle;
+}
+
+.bw-gIcon.bw-gPpl {
+    background-position: -95px -5px;
+}
+
+.bw-gIcon.bw-gBkm {
+    background-position: -5px -5px;
+}
+
+.bw-gIcon.bw-gDoc {
+    background-position: -35px -5px;
+}
+
+.bw-gIcon.bw-opn {
+    background-position: -65px -5px;
+}
+
+#bw-glmOpt {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+#bw-gLabl {
+    text-align: center;
+    padding: 0 10px;
+}
+
+#bw-glmOpt li {
+    min-width: 110px;
+    padding: 0 5px 0 15px;
+}
+
+#bw-glmOpt.bw-gOpn #bw-gLabl,
+#bw-glmOpt.bw-gOpn #bw-gLabl:hover,
+#bw-glmOpt li.bw-selected {
+    background-color: #e5e5e5;
+}
+
+#bw-gLabl span {
+    margin: 0 8px;
+}
+
+#bw-gLabl >div,
+#bw-glmOpt li >div {
+    display: inline-block;
+}
+
+#bw-glmOpt ul {
+    text-align: left;
+}
+
+#bw-glmOpt ul {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+#bw-glmOpt li {
+    overflow: hidden;
+    background-color: #FFFFFF;
+    height: 0;
+}
+    #bw-glmOpt li span {
+        margin-left: 8px;
+    }
+
+#bw-glmOpt.bw-gOpn ul {
+    border: 1px solid #e5e5e5;
+}
+
+#bw-glmOpt.bw-gOpn li {
+    height: 40px;
+}
+
+#bw-glmOpt.bw-gOpn .bw-opn {
+    transform: rotate(180deg);
+}
+
+#bw-glmOpt.bw-gOpn ul,
+#bw-glmOpt ul:hover li.bw-selected {
+    background-color: #FFFFFF;
+}
+
+#bw-gLabl:hover,
+#bw-glmOpt ul li:hover,
+#bw-glmOpt ul li.bw-selected:hover {
+    background-color: #f2f2f2;
+}
+
+#bw-glmIcon,
+.bw-gIcon {
+    height: 20px;
+    width: 20px;
+}
+
+#bw-glmTxt {
+    white-space: nowrap;
+}
+
+#bw-glmIcon,
+#bw-glmTxt {
+    display: inline-block;
+    vertical-align: middle;
+}
