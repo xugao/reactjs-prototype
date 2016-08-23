@@ -16,7 +16,7 @@ const bookmarks = {
   text: "Bookmarks"
 };
 
-const GleamState = observable({
+let GleamState = observable({
   labelText: "Work results",
   dropdownIsOpen: false,
   items: [people, documents, bookmarks],

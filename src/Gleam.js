@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { observer } from 'mobx-react';
 import { action } from 'mobx';
+import DevTools from 'mobx-react-devtools';
 import './Gleam.css';
 
 @observer
@@ -34,6 +35,7 @@ class Gleam extends Component {
   render = () => {
     return (
       <div id="bw-glmOpt" className={this.store.dropdownIsOpen ? "bw-gOpn" : ""}>
+        <DevTools />
         <div id="bw-gLabl" onClick={this.handleClick}>
           <img id="bw-glmIcon" alt="company logo" src={this.imageSrc}/>
           <div id="bw-glmTxt">{this.store.labelText}</div>
